@@ -1,6 +1,6 @@
+#!/bin/bash
 git clone https://github.com/acmesh-official/acme.sh
 cd acme.sh/
-#!/bin/bash
 chmod +x acme.sh
 ./acme.sh --install --home /opt/acme --no-profile \
    --accountemail noreply@valeo.com --log /var/log/acme.sh.log
